@@ -63,21 +63,25 @@ def get_random_proxy():
 
 # تحميل البروكسيات عند بدء التشغيل
 load_proxies()
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
 logger = logging.getLogger(__name__)
 bot = telebot.TeleBot("8808007208:AAFfvIsUNbVf_bsXaBl34PAz6NL4ttL0STU")
 OWNER_ID = 1707478010
 admin = '1707478010'
+
 # Force delete any existing webhook to prevent 409 conflict
 try:
     bot.delete_webhook()
     print("✅ Webhook deleted successfully")
 except Exception as e:
     print(f"⚠️ Error deleting webhook: {e}")
-	@bot.message_handler(commands=['test123'])
+
+@bot.message_handler(commands=['test123'])
 def test_buttons(message):
     if str(message.from_user.id) != OWNER_ID:
         return
@@ -88,6 +92,7 @@ def test_buttons(message):
         bot.reply_to(message, "❌ No buttons found in main_menu")
     
 LOADING_VIDEO_URL = "https://t.me/Mustafa964iq/3"
+
 # ==================== SUPABASE CONNECTION ====================
 from supabase import create_client, Client
 
