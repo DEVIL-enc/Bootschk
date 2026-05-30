@@ -70,7 +70,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-bot = telebot.TeleBot("8808007208:AAFfvIsUNbVf_bsXaBl34PAz6NL4ttL0STU")
+bot = telebot.TeleBot("8831172620:AAET4zmmlpPky1OLhPuMk_L3EcuA38unBLg")
 OWNER_ID = 1707478010
 admin = '1707478010'
 
