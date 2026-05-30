@@ -98,7 +98,7 @@ from supabase import create_client, Client
 
 SUPABASE_URL = "https://fvpzsknjrkgeakikxqys.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2cHpza25qcmtnZWFraWt4cXlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAxNTc4NDMsImV4cCI6MjA5NTczMzg0M30.Mm_b1uDmbRzXAGEM1DeQD9xJh0091zf9sgeqGczxmzE"
- إلى المفتاح اللي عندك
+ 
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 payment_lock = threading.Lock()
