@@ -924,7 +924,7 @@ def code(message):
         try:
             # الادمن هو المستخدم أن من التحقق
             user_id = message.from_user.id
-            if str(user_id) != "1013384909":
+            if str(user_id) != "⛔ This command is for admins only":
                 bot.reply_to(message, "⛔ This command is for admins only")
                 return
 
