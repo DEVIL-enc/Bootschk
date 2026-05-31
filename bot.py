@@ -506,9 +506,9 @@ def premium_emoji(text):
         result = result.replace(placeholder, f'<tg-emoji emoji-id="{doc_id}">{emoji}</tg-emoji>')
     return result
 
-API_ID = 28095409
-API_HASH = '5883d21dcb98154b67960e96dc2a690e'
-BOT_TOKEN = '8558756991:AAF6yyZ_MiNH-_H5cBGogx7vuLGVBUZODYQ'
+API_ID = 39825025
+API_HASH = '47170fd9a11b3f591bbc56849519f0f8'
+BOT_TOKEN = '8831172620:AAET4zmmlpPky1OLhPuMk_L3EcuA38unBLg'
 
 SITES_FILE = 'sites.txt'
 PROXY_FILE = 'proxy.txt'
